@@ -90,7 +90,7 @@ releaseX.X
 他にも
 ----------------
 Githubを使ってると、とにかくブランチを沢山きったり(切りすぎても微妙だけど)、タグをスタンプしまくるのが楽しい
-[NetworkのGraph]（https://github.com/asonas/for-jigsaw/network)を見てみるとわかるけど、自分の作業履歴をTree上に表示してくれる！  
+[NetworkのGraph](https://github.com/asonas/for-jigsaw/network)を見てみるとわかるけど、自分の作業履歴をTree上に表示してくれる！  
 adminからコラボレータを登録して複数人で開発するときでももちろんこのGraphは作業人分だけ反映してくれる。  
 
 いろいろかくことはあるけど、  
