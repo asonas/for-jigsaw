@@ -1,0 +1,96 @@
+  702  mkdir for-jigsaq
+  703  mv for-jigsaq/ for-jigsaw
+  704  cd for-jigsaw/
+  705  git init
+  706  touch hello-jigsaw
+  707  git status
+  708  git add .
+  709  git commit -m 'ファイル追加'
+  710  git status
+  711  emacs hello-jigsaw
+  712  git status
+  713  git add
+  714  git add .
+  715  git commit -m 'テキスト書いた'
+  716  git tag v0.1.0
+  717  git status
+  718  git tag
+  719  git graph
+  720  git checkout -b develop
+  721  git status
+  722  emacs hello-jigsaw
+  723  git status
+  724  git commit -am 'テキスト追記'
+  725  git status
+  726  cat hello-jigsaw
+  727  emacs hello-jigsaw
+  728  git status
+  729  git commit -am '改行コード追加'
+  730  git status
+  731  cat hello-jigsaw
+  732  git checkout master
+  733  cat hello-jigsaw
+  734  git checkout -b hotfix
+  735  emacs hello-jigsaw
+  736  git status
+  737  git add .
+  738  git commit -m '改行コード忘れ'
+  739  git status
+  740  git graph
+  741  git checkout master
+  742  git merge hotfix
+  743  git status
+  744  cat hello-jigsaw
+  745  git graph
+  746  git tag v0.1.1
+  747  git graph
+  748  git tag
+  749  git status
+  750  git checkout develop
+  751  git graph
+  752  emacs hello-jigsaw
+  753  emacs hello-jigsaw
+  754  cat hello-jigsaw
+  755  git status
+  756  git commit -am 'テキスト追記'
+  757  git stats
+  758  git status
+  759  git graph
+  760  git checkout master
+  761  git merge develop
+  762  git status
+  763  emacs hello-jigsaw
+  764  cat hello-jigsaw
+  765  git status
+  766  git commit -am 'コンフリクト解消'
+  767  git status
+  768  git graph
+  769  git tag v1.0.0
+  770  git status
+  771  git tag
+  772  git checkout develop
+  773  git merge master
+  774  git graph
+  775  emacs hello-jigsaw
+  776  cat hello-jigsaw
+  777  git status
+  778  git diff
+  779  git commit -am '文言並び替え'
+  780  git status
+  781  git status
+  782  git graph
+  783  git checkout master
+  784  git merge develop
+  785  git status
+  786  git branch
+  787  cat hello-jigsaw
+  788  git status
+  789  git graph
+  790  git checkout develop
+  791  git remote add origin git@github.com:asonas/for-jigsaw.git
+  792  git push
+  793  git push origin master
+  794  git push origin develop
+  795  git push origin hoyfix
+  796  git push origin hotfix
+  797  git push --tags
