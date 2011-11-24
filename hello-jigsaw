@@ -15,3 +15,5 @@ hotfix branchつくったけどcheckoutするの忘れてmaster branchで作業�
 
 そういえば、pull-requestってどうやるんだろう？
 とりあえず $ git push origin masterしちゃったんだけど
+
+ありがとうございます！
