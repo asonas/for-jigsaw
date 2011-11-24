@@ -3,6 +3,7 @@
 こんばんは！
 じぐそうです！
 <<<<<<< HEAD
+<<<<<<< HEAD
 ありがとうございます！
 hotfix branchつくったけどcheckoutするの忘れてmaster branchで作業したやつをpushしてしまった！
 =======
@@ -13,3 +14,6 @@ hotfix branchつくったけどcheckoutするの忘れてmaster branchで作業�
 =======
 わわわ、だんだんカオスってきた！
 >>>>>>> develop
+=======
+ありがとうございます！
+>>>>>>> 775e1a1b6ae898beb049878e455a850fb955c064
