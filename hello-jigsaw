@@ -2,5 +2,10 @@
 こんにちは！
 こんばんは！
 じぐそうです！
+<<<<<<< HEAD
 ありがとうございます！
 hotfix branchつくったけどcheckoutするの忘れてmaster branchで作業したやつをpushしてしまった！
+=======
+しまった！
+これもbranch切って書いた方がよかった気がする！
+>>>>>>> develop
