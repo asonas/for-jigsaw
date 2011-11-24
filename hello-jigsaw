@@ -13,7 +13,12 @@ hotfix branchつくったけどcheckoutするの忘れてmaster branchで作業�
 >>>>>>> develop
 =======
 わわわ、だんだんカオスってきた！
+<<<<<<< HEAD
 >>>>>>> develop
 =======
 ありがとうございます！
 >>>>>>> 775e1a1b6ae898beb049878e455a850fb955c064
+=======
+そういえば、pull-requestってどうやるんだろう？
+とりあえず $ git push origin masterしちゃったんだけど
+>>>>>>> develop
