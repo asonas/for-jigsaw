@@ -21,3 +21,19 @@ hotfix branchつくったけどcheckoutするの忘れてmaster branchで作業�
 
 そうかー、merge --no--ffしないとNetworkでみれないのかー！
 まちがえた
+
+しつもん:
+1. 一通り実装がおわってmaster branch にdevelop branch をmerge！
+2. ヨッシャ push origin master するで！
+3. はっ、大昔のdevelop branchのcommitでひみつファイル(pushしたくないファイル)をcommitしてしまっていた！
+という場合はどう対処すればいいのでしょうか...
+
+対処方法がわからなくて
+1. git reset --soft SHA
+2. vim .gitignore(ひみつファイル追加)
+3. git add .gitignore
+4. git commit -m "fix .gitignore"
+5. git add .
+6. git commit -m "しくしく"
+しました。
+もちろんこれまでコツコツcommitした記録は消えちゃって全体的にぐちゃぐちゃになっちゃいました
