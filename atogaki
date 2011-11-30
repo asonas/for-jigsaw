@@ -1,0 +1,4 @@
+git filter-branch --tree-filter 'rm -f atogaki' HEAD
+
+こんな感じ。
+ブランチを切り替えても残るので注意
